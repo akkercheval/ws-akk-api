@@ -1,0 +1,6 @@
+@AkkWebService_HostAddress = http://localhost:5185
+
+GET {{AkkWebService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

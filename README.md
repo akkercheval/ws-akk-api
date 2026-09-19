@@ -10,7 +10,7 @@ A RESTful API built with ASP.NET Core 9, Entity Framework Core, and SQL Server. 
 ## Running Locally
 
 ```bash
-cd akk-api/AkkWebService
+cd AkkWebService
 dotnet run
 ```
 

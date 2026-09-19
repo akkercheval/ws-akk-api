@@ -1,0 +1,48 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio cache/options
+.vs/
+
+## Rider
+.idea/
+
+## NuGet
+*.nupkg
+**/packages/
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET config with secrets
+# appsettings.json holds the DB connection string (user id + password),
+# the JWT signing key, and the admin password hash. Keep it OUT of the repo.
+# Commit appsettings.example.json (placeholder values) as the template instead.
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.example.json
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Secrets and local overrides
+*.pfx
+*.p12
+secrets.json
+.env
+.env.*
+
+## Local design / spec notes (not part of the service)
+AKK Website Spec 20260727.txt
+Gypsa initial prompt 20260728.txt
