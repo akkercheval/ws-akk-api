@@ -1,0 +1,31 @@
+# Build outputs (regenerated inside the image)
+bin/
+obj/
+
+# Git / CI
+.git
+.gitignore
+.github
+
+# Secrets and local config (never bake into the image; injected at runtime)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+!appsettings.example.json
+*.pfx
+*.p12
+secrets.json
+.env
+.env.*
+
+# Editor / OS cruft
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local notes not part of the service
+AKK Website Spec 20260727.txt
+Gypsa initial prompt 20260728.txt
+*.http
